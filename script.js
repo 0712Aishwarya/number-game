@@ -14,7 +14,7 @@ function checkNumber(){
 if(guessvalue==randomNumber){
     // console.log("correct number");
     document.querySelector("body").style.backgroundColor="green";
-    message.textContent="Correct Number";
+    msg.textContent="Correct Number";
     highscore.textContent=scores;
     number.textContent=randomNumber;
 
